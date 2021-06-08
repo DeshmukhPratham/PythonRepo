@@ -1,0 +1,3 @@
+a,b=6,2
+print(a>>b)  #meanimg of this is a right shift b
+print(a<<b)  #meaning of this is a left shift b
