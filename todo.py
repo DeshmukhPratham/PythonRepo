@@ -8,27 +8,6 @@ app.config['SECRET_KEY'] = 'XDSWCW5TDYJEDSHTGRS'
 
 db = SQLAlchemy(app)
 
-# class Credentials(db.Model):
-# 	id = db.Column(db.Integer, primary_key=True)
-# 	username = db.Column(db.String(100))
-# 	password = db.Column(db.String(100))
-
-# 	def __init__(self, username, password):
-# 		self.username = username
-# 		self.password = password
-
-# route --> /register
-# obj = Credentials(username_form, password_form)
-# db.session.add(obj)
-# db.session.commit
-
-# route --> /login
-# username_form, password_form
-# row = db.session.filter_by(username=username_form)
-# if row.password == password_form:
-# 	logedin....
-# else:
-# 	show error
 
 
 class Data(db.Model):
