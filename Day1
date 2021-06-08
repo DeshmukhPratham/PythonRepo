@@ -1,0 +1,8 @@
+#give all the index values of vowels
+
+new=input('Write a sentence :')
+a=[]
+for i in range (len(ori)):
+   if new[i] in 'aeiou':
+        a.append(i)
+        print('The vowel indices are:', a)
