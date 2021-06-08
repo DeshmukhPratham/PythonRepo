@@ -1,0 +1,4 @@
+a='WhATareYoudOiNg'
+print(a.swapcase())
+print(a.lower())
+print(a.upper())
